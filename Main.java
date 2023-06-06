@@ -1,15 +1,15 @@
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-/*        Scanner sc = new Scanner(System.in);
-        String something = sc.nextLine();
-        System.out.println(something.toUpperCase());
-        System.out.println(something.toLowerCase());
-        System.out.println(something.substring(0,1));
-        System.out.println(something.substring(something.length() - 1));
-*/
-
-
+        Scanner sc = new Scanner(System.in);
+        int num1 = sc.nextInt();
+        int num2 = sc.nextInt();
+        if (num1 > num2) {
+            System.out.println(num2 + " is smaller than " + num1);
+        } else {
+            System.out.println(num1 + " is smaller than " + num2);
+        }
 
     }
+
 }
